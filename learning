@@ -1,0 +1,71 @@
+🔧 Copilot Chatbot Embed — Quick Lesson Guide
+🎯 Goal:
+Embed + customize your chat widget
+
+Learn iframe basics
+
+Add simple JavaScript interactivity
+
+🧪 Activity 1: Style Your Chat Bubble
+📍 File: <style>, class .chat-btn
+
+🔁 Change button color
+
+🔠 Change font size
+
+⭕ Make it a round bubble (try width = height + border-radius: 50%)
+
+🖋 Change text: Open Chatbot → Chat with us!
+
+🧪 Activity 2: Control the Popup
+📍 File: <script>, function openChatbot()
+
+✅ Add new function closeChatbot()
+
+🔘 Add a Close button inside .chat-modal
+
+🎯 Task: Make Close button hide the chat
+
+🧪 Activity 3: Explore the iframe
+📍 File: <iframe> inside .chat-modal
+
+🪄 Change size (width/height)
+
+🌐 Try replacing the src with another URL (like https://example.com)
+
+🛑 Remove allow="microphone; camera" — what happens?
+
+📱 Add scrolling="yes" and test on mobile
+
+🧪 Bonus: Responsive Design
+📍 File: <style>
+
+🧩 Add a media query
+
+css
+Copy
+Edit
+@media (max-width: 600px) {
+  .chat-modal iframe {
+    width: 90%;
+    height: 500px;
+  }
+}
+✅ Test on small screen
+
+🧪 Bonus: Escape Key to Close
+js
+Copy
+Edit
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") closeChatbot();
+});
+✅ Wrap-Up Checklist
+
+ Custom button designed
+
+ Open/Close chatbot working
+
+ iframe explored
+
+ Modal looks good on mobile

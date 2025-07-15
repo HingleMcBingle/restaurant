@@ -1,0 +1,43 @@
+body{
+    background-image: #01cdfe;
+}
+.navbarstyle{
+    background-color: #01cdfe;
+    color: wheat;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+}
+
+.rname{
+    background-color: #442414;
+    text-align: center;
+    color: azure;
+
+}
+li{
+    text-decoration: none;
+}
+
+h4{
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-top: 50px;
+}
+
+.cards{
+    padding: 10px;
+}
+
+.link{
+    padding-left: 20px;
+    padding-right: 20px;
+}
